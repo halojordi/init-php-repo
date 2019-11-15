@@ -19,8 +19,8 @@ services:
 
     # controllers are imported separately to make sure services can be injected
     # as action arguments even if you don't extend any base controller class
-    App\Infrastructure\Ui\Http\Controller\:
-        resource: '../src/Infrastructure/Ui/Http/Controller'
+    App\PL\Infrastructure\Ui\Http\Controller\:
+        resource: '../src/PL/Infrastructure/Ui/Http/Controller'
         tags: ['controller.service_arguments']
 
     # add more service definitions when explicit configuration is needed
