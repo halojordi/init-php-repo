@@ -1,9 +1,15 @@
 {
-    "name": "app/php-skeleton",
-    "type": "project",
-    "license": "proprietary",
-    "description": "A simple skeleton for a php app",
-    "require": {
+  "name": "app/php-skeleton",
+  "type": "project",
+  "license": "proprietary",
+  "description": "A simple skeleton for a php app",
+  "authors": [
+    {
+      "name": "Jordi",
+      "email": "halojordi@gmail.com"
+    }
+  ],
+  "require": {
         "php": "^7.3.9",
 
         "ext-ctype": "*",
